@@ -1,0 +1,17 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="mod.models.controller.App" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}" binding="{/material}">
+					<content>
+						<Label text="ID do Material"/>
+						<Input id="inputMaterialId" value="{id}"/>
+						<Label text="Descrição do Material"/>
+						<Input id="inputMaterialDesc" value="{description}"/>
+						<Button press="press" text="Debug"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
